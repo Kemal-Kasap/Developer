@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OnlineOyun">
+
+    <TextView
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Top"
+        android:textColor="@color/red"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:id="@+id/yenen_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"/>
+
+    <TableLayout
+        android:id="@+id/table_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/yenen_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"/>
+
+    <TextView
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Bottom"
+        android:textColor="@color/green"
+        android:textSize="25sp" />
+
+    <com.dreamscloud.deneme.SquareButton
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="33dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:id="@+id/dinleme"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_mic_black_24dp" />
+
+</LinearLayout>

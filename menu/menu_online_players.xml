@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="example.javatpoint.com.kotlinoptionsmenu.MainActivity">
+    <item
+        android:id="@+id/action_sign_out"
+        android:orderInCategory="1"
+        android:title="@string/sign_out_button"
+        app:showAsAction="always" />
+
+</menu>

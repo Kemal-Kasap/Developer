@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="example.javatpoint.com.kotlinoptionsmenu.MainActivity">
+
+    <item
+        android:id="@+id/action_turn"
+        android:icon="@drawable/ic_autorenew_black_24dp"
+        android:orderInCategory="1"
+        android:title="@string/action_turn"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_undo"
+        android:icon="@drawable/ic_undo_black_24dp"
+        android:orderInCategory="1"
+        android:title="@string/action_undo"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_new"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        android:orderInCategory="2"
+        android:title="@string/action_new"
+        app:showAsAction="always" />
+
+
+</menu>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Introduction">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp">
+
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="33dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_mic_black_24dp" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="33dp"
+                android:layout_marginRight="33dp"
+                android:text="Sesli Hamle"
+                android:textColor="@color/ana_ekran_text" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="17dp"
+            android:text="  Müjde! Dünya'da bir ilk. Sesli Satranç! (Eğer başka uygulama varsa bildirirseniz seviniriz. Onun özelliiklerine bakıp eksiklerimizi tamamlayabiliriz.) Artık konuşarak satranç oynayabileceksiniz. Hem de Türkçe. Mikrofona basın ve konuşun gerisini biz halledelim. \n  Konuşarak hamle yapmak için komutları satranç turnuvalarındaki notasyona göre vermelisiniz. Yani önce oynamak istediğiniz taşı daha sonra oynayacağınız kareyi söylemelisiniz. Eğer oynayacağınız taş piyon ise sadece oynayacağınız kareyi söylemeniz yeterlidir. \n  Örnek: E4, E5, At Ce3, Fil Ce5 ... \n  Oynayacağınız kareyi söylerken Fe 3 şeklinde söylemelisiniz Ef 3 şeklinde değil. Dedik ya oyun Türkçe :) \n  Eğer piyonu son kareye geldiyseniz ve Kale çıkmak istiyorsanız Piyon He8 Kale şeklinde söylemelisiniz. Taş çıkarken Piyon He8 şeklinde söylemelisiniz. Malesef sadece H8 derseniz program anlayamamaktadır. \n  Eğer program birden çok olası hamle algılarsa hamleleri sayıp kaçıncı hamleyi yapmak istediğinizi sormaktadır. Sizin de Bir ya da İki demeniz yeterli. \n  Tek hamle algılarsa o hamleyi yapmaktadır. Ama ayarlardan Sesli hamle onayını açarsanız anladığı hamleyi söyleyip sizden onay beklemektedir. Evet ya da Hayır diyerek onaylayabilir ya da reddedebilirsiniz. \n  Sesli hamle özelliğinin geliştirilmesi için tavsiyelerinizi bekliyoruz." />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp">
+
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="33dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ana_player" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="33dp"
+                android:layout_marginRight="33dp"
+                android:text="@string/vs_human"
+                android:textColor="@color/ana_ekran_text" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="17dp"
+            android:text="  Arkadaşın ile oyna modunda tek telefondan iki kişi oynayabilirsiniz." />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="33dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_mic_black_24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="33dp"
+                android:layout_marginRight="33dp"
+                android:gravity="center_vertical"
+                android:text="Mikrofona basıp konuşarak hamle yapabilirsiniz." />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="33dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_autorenew_black_24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="33dp"
+                android:layout_marginRight="33dp"
+                android:gravity="center_vertical"
+                android:text="Tahtayı ters çevirebilirsiniz" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="33dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_undo_black_24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="33dp"
+                android:layout_marginRight="33dp"
+                android:gravity="center_vertical"
+                android:text="Hamlenizi geri alabilirsiniz" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="33dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_refresh_black_24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="33dp"
+                android:layout_marginRight="33dp"
+                android:gravity="center_vertical"
+                android:text="Yeni oyun başlatabilirsiniz" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="33dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ana_computer" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="33dp"
+                android:layout_marginRight="33dp"
+                android:text="@string/vs_computer"
+                android:textColor="@color/ana_ekran_text" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="17dp"
+            android:text="  Henüz geliişme aşamasındadır. Bilgisayar hamle yaparken hiç düşünmeden oynamaktadır. İlerleyen güncellemelerle geliştirilmesi planlanmaktadır. Arkadaşın ile oynada bahsedilen özellikler kullanılabilmektedir. \n  Yenmesi kolay :)" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="33dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ana_online" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="33dp"
+                android:layout_marginRight="33dp"
+                android:text="@string/online_oyna"
+                android:textColor="@color/ana_ekran_text" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="17dp"
+            android:text="  Online oynama özelliği de geliştirilme aşamasındadır. Online oynamak için bir kullanıcı adı belirleyip gmail ile giriş yapmanız gerkmektedir. Giriş yaptıktan sonra online olan oyunculara maç teklif edebilir ya da onlardan teklif alabilirsiniz." />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="33dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ana_settings" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="33dp"
+                android:layout_marginRight="33dp"
+                android:text="@string/settings"
+                android:textColor="@color/ana_ekran_text" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="17dp"
+            android:text="  Sesli hamlede onay seçeneğini açmanız durumunda aesli hamle yapmak için sizden onay istenecektir. Evet diyerek hamleyi onaylayabilir ya da Hayır diyerek reddedebilirsiniz. \n  Hamle okunsun seçeneğinde her hamlenizden sonra oynadığınız hamle seslendirilecektir. Bu özellik sayesinde arkadaşınız gözü kapalı olarak sizinle oynuyor ise yaptığınız hamleyi sizin yerinize telefon seslendirecektir. \n  Tahtanın çerçevesini kaldırarak daha geniş bir tahtada oynayabilir ya da çerçeve ekleyerek sesli hamle yapmanızı kolaylaştırabilirsini. \n  Teklif ve önerileriniz bizim için değerlidir. \n  İyi eğlenceler :)" />
+
+
+    </LinearLayout>
+</ScrollView>
