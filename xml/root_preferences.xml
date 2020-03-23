@@ -1,0 +1,21 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreferenceCompat
+        app:key="onay"
+        app:summaryOff="@string/onay_off"
+        app:summaryOn="@string/onay_on"
+        app:title="@string/onay_title" />
+
+    <SwitchPreferenceCompat
+        app:key="ses"
+        app:summaryOff="@string/ses_off"
+        app:summaryOn="@string/ses_on"
+        app:title="@string/ses_title" />
+
+    <SwitchPreferenceCompat
+        app:key="cerceve"
+        app:summaryOff="@string/cerceve_off"
+        app:summaryOn="@string/cerceve_on"
+        app:title="@string/cerceve_title" />
+
+</PreferenceScreen>

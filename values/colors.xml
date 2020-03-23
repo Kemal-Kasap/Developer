@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2d629f</color>
+    <color name="colorPrimaryDark">#003679</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="pressed">#D81B60</color>
+    <color name="normal">#F5DEB3</color>
+    <color name="koyu">#8B4513</color>
+    <color name="cerceve">#F4A460</color>
+    <color name="selected">#20208A</color>
+    <color name="possible">#96FF7B</color>
+    <color name="buradan">#7777C9</color>
+    <color name="buraya">#5050B0</color>
+    <color name="tehlike">#FF0000</color>
+    <color name="yenen">#F7EFE0</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="green">#00FF00</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="red">#FF0000</color>
+    <color name="background">#D7F8FF</color>
+    <color name="cizgi">#cec5fa</color>
+
+    <color name="ana_ekran_background">#2d629f</color>
+    <color name="ana_ekran_button">#a90b43</color>
+    <color name="ana_ekran_text">#8B4513</color>
+
+</resources>

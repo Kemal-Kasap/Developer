@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Sesli Satranç</string>
+    <string name="dinleme">Listen</string>
+    <string name="say_sth">Say sth</string>
+    <string name="wrong_move">Wrong Move</string>
+    <string name="draw">Draw</string>
+    <string name="mate">Mate</string>
+    <string name="new_game">Yeni Oyun</string>
+    <string name="undo">Geri Al</string>
+    <string name="sira_karsida">Sıra karşıda</string>
+    <string name="illegal_move">Illegal Move</string>
+    <string name="online_oyna">Online Oyna</string>
+    <string name="teklif_var">Teklif Var!</string>
+    <string name="ile_oyna">ile satranç oynamak ister misin?</string>
+    <string name="game_over">Game Over</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="say_bir">Oynamak istediğiniz hamle</string>
+    <string name="say_iki">Bir mi İki mi…</string>
+    <string name="say_uc">Evet mi Hayır mı</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_new">New</string>
+    <string name="action_undo">Undo</string>
+
+
+    <string name="title_activity_settings">Settings</string>
+    <string name="onay_title">Sesli hamlede onay istensin mi?</string>
+    <string name="onay_on">Hamle onayı sorulacak</string>
+    <string name="onay_off">Hamle onayı sorulmayacak</string>
+    <string name="ses_title">Hamle okunsun mu?</string>
+    <string name="ses_on">Hamle yapıldıktan sonra okunacak</string>
+    <string name="ses_off">Hamle yapıldıktan sonra okunmayacak</string>
+    <string name="cerceve_title">Tahtanın çerçevesi olsun mu?</string>
+    <string name="cerceve_on">Tahtada rakam ve harfler olacak</string>
+    <string name="cerceve_off">Tahtada rakam ve harfler olmayacak</string>
+
+    <string name="pick_your_side">Tarafını Seç</string>
+    <string name="black">Siyah</string>
+    <string name="white">Beyaz</string>
+    <string name="cancel">İptal</string>
+    <string name="vs_human">Arkadaşın ile Oyna</string>
+    <string name="vs_computer">Bilgisayar ile Oyna</string>
+    <string name="online">Online Oyna</string>
+    <string name="introduction">Tanıtım</string>
+    <string name="settings">Ayarlar</string>
+    <string name="sign_out_button">Sign Out</string>
+    <string name="user_name">Kullanıcı Adı</string>
+    <string name="sign_in">Giriş Yap</string>
+    <string name="please_enter_user_name">Lütfen kullanıcı adı yazınız</string>
+    <string name="action_turn">Çevir</string>
+    <string name="computers_turn">Bilgisayarın sırası</string>
+    <string name="sira_online_rakipte">Sıra online rakipte</string>
+</resources>
